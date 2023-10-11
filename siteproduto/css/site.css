@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logotipo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.logo-titulo p {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para a barra de navegação de categorias */
+.categories-nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+    /* Limpar flutuações */
+}
+
+.categories-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.categories-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #007BFF;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 10px 20px;
+    /* Espaçamento interno (altura, largura) */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    cursor: pointer;
+    /* Transforma o cursor em uma mão ao passar o mouse */
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave na cor de fundo */
+}
+.notebook h1{
+    text-align: center;
+    color: blue;
+}
+/* Estilos para o elemento footer */
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    padding: 20px 0; /* Espaçamento interno no topo e na parte inferior do footer */
+    display: flex; /* Tornar o footer um contêiner flexível */
+    justify-content: space-between; /* Alinhar elementos ao longo do eixo principal (horizontal) */
+    align-items: center; /* Alinhar elementos ao longo do eixo transversal (vertical) */
+    text-align: center; /* Centralizar o conteúdo no footer */
+}
+
+/* Estilos para o logotipo no footer */
+.footer-logo img {
+    width: 100px; /* Largura do logotipo no footer */
+    height: auto; /* Altura ajustável para manter a proporção original */
+}
+
+/* Estilos para informações de contato no footer */
+.footer-contact {
+    text-align: right; /* Alinhar texto à direita */
+}
+
+/* Estilos para links de redes sociais no footer */
+.footer-social {
+    text-align: center; /* Centralizar o texto no centro */
+}
+
+.footer-social h3 {
+    margin-bottom: 10px; /* Espaçamento inferior para o título "Redes Sociais" */
+}
+
+.footer-social ul {
+    list-style: none; /* Remover marcadores de lista padrão */
+    padding: 0; /* Remover preenchimento padrão da lista */
+}
+
+.footer-social li {
+    margin: 5px 0; /* Espaçamento vertical entre os itens da lista */
+}
+
+/* Estilize os links nas redes sociais */
+.footer-social a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    transition: color 0.3s; /* Adicionar transição suave para a cor do texto */
+}
+
+.footer-social a:hover {
+    color: #007bff; /* Cor dos links ao passar o mouse sobre eles */
+}
